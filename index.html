@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="./styles/style.css" class="css">
+
+  <link rel="stylesheet" href="./styles/normalize.css" class="normalize-css">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+
+ 
+</head>
+<body>
+  <!-- section card1 -->
+  <section class="card-container show" id="card">
+    <div class="star"><img src="./images/icon-star.svg" alt="star" class="star-icon"></div>
+
+
+    <h1 class="title">How did we do?</h1>
+
+
+    <p class="description">Please let us know how we did with your support request. All feedback is appreciated 
+      to help us improve our offering!</p>
+
+
+      <div class="btn-rating">
+        <!-- <input type="button" name="rating" class="rating-input" value="1">
+        <input type="button" name="rating" class="rating-input" value="2">
+        <input type="button" name="rating" class="rating-input" value="3">
+        <input type="button" name="rating" class="rating-input" value="4">
+        <input type="button" name="rating" class="rating-input" value="5"> -->
+        <button class="rating-input">1</button>
+        <button class="rating-input">2</button>
+        <button class="rating-input">3</button>
+        <button class="rating-input">4</button>
+        <button class="rating-input">5</button>
+        </div>
+
+      <button class="submit" id="submit">SUBMIT</button>
+    </section>
+
+    <!--section-2 card  -->
+      <section class="hidden-card hidden"  id="hidden-card">
+
+        <div class="hidden-card-img">
+          <img src="./images/illustration-thank-you.svg" alt="thank you" class="img">
+        </div>
+
+        <p class="rating-output">you selected <span class="span"></span> out of 5</p>
+
+        <h1 class="thankyou">Thank you!</h1>
+
+        <p class="hidden-description"> We appreciate you taking the time to give a rating. If you ever need more support, 
+          don't hesitate to get in touch!</p>
+
+          <button class="ok" id="ok">OK</button>
+
+        
+      </section>
+
+  <!-- custom JS -->
+  <script src="./scripts/script.js"></script>
+</body>
+</html>
+
